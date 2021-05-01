@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,500&display=swap');
+
+.App {
+  text-align: center;
+ background-image: url('./image.jpg');
+  background-size: cover;
+
+
+}
+.text-muted {
+  color :rgb(206, 200, 200);
+  font-size: small;
+}
+
+.Title {
+  padding: 20px;
+  font-family:Ubuntu;
+  color: aliceblue;
+}
+.Form {
+  margin : 150px;
+  height: 500px;
+  width: 400px;
+  display: grid;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 50px;
+  font-family:Ubuntu;
+  padding-top: 100px;
+  color: aliceblue;
+  font-size: 20px;
+  background: transparent;
+
+
+  
+
+}
+.Accordion {
+  margin-left: 500px;
+  margin-right: 500px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Card {
+  background: transparent;
+  color: antiquewhite;
+  font-size: large;
+}
+.social-logos{
+gap: 50px;
+}
+.face-logo {
+  height: 60px;
+  width: 60px;
+ float: right;
+}
+.twitter-logo {
+  height: 60px;
+  width: 60px;
+ float: right;
+}
+.insta-logo {
+  height: 60px;
+  width: 60px;
+ float: right;
+}
+.whats-logo {
+  height: 60px;
+  width: 60px;
+ float: right;
+}
+.youtu-logo {
+  height: 60px;
+  width: 60px;
+ float: right;
+}
+
+.Alert {
+  margin-left: 350px;
+  margin-right: 350px;
+  padding : 20px ;
+  margin-bottom: 50px;
+  background: transparent;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
