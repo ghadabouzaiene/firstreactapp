@@ -17,7 +17,7 @@ import './App.css'
 function App() {
   return (
     
-    <div class="App">
+    <div className="App">
       <div className='Nav'>
       <Navbar sticky="top"  bg="dark" variant="dark">
     <Navbar.Brand href="#home">REBELLIOUS.</Navbar.Brand>
